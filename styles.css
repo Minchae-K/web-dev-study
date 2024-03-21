@@ -1,0 +1,90 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#page-logo a {
+    color: orange;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+
+header ul {
+    padding-right: 60px;
+    display: flex;
+}
+
+header li {
+    margin-left: 40px;
+}
+
+header li a {
+    color: orange;
+    text-decoration: none;
+}
+
+main h1 {
+    font-size: 48px;
+    text-align: center;
+    /* margin: 40px auto 80px 100px; */
+    color: orange;
+    margin-bottom: 80px;
+}
+
+main li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 9px;
+    overflow: hidden;
+    width: 350px;
+    background-color: rgb(233, 233, 201);
+}
+
+#foods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 20px 70px;
+    /* align-items: center; */
+    margin: 0 auto 0 auto;
+}
+
+#foods img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.item-name h2 {
+    color: rgba(6, 6, 6, 0.657);
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions a {
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(215, 152, 50);
+    border-radius: 6px;
+    color: white;
+}
