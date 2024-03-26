@@ -2,18 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>WebFood</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Webfood</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <div id="page-logo">
-        <a href="/index.html"><strong>WEBFOOD</strong></a>
-      </div>
+    <header id="main-header">
+      <a href="index.html" id="logo">WEBFOOD</a>
       <nav>
         <ul>
           <li>
@@ -27,37 +28,37 @@
     </header>
     <main>
       <h1>Browse Our Delicious Meals</h1>
-      <section id="highlights">
+      <section id="latest-products">
         <ul id="foods">
-          <li>
-            <img
-              src="/images/risotto.jpg"
-              alt="Risotto with Tiger Prawns on the table"
-            />
-            <div class="item-name">
-              <h2>Risotto with Tiger Prawns</h2>
-            </div>
-            <div class="actions">
-              <a href="">Add to Cart</a>
-            </div>
+          <li class="food-item">
+            <article>
+              <img
+                src="images/risotto.jpg"
+                alt="Delicious risotto with tiger prawns"
+              />
+              <div class="food-item-content">
+               <h2>Risotto with Tiger Prawns</h2>
+              <a href="" class="btn">Add to Cart</a> 
+              </div>
+            </article>
           </li>
-          <li>
-            <img
-              src="/images/cheeseburgers.jpg"
-              alt="Two Cheeseburgers with potatos"
-            />
-            <div class="item-name">
-              <h2>Cheeseburgers</h2>
-            </div>
-            <div class="actions">
-              <a href="">Cheeseburgers</a>
-            </div>
+          <li class="food-item">
+            <article>
+              <img
+                src="images/cheeseburgers.jpg"
+                alt="Classic cheeseburgers with fries"
+              />
+              <div class="food-item-content">
+               <h2>Cheeseburgers</h2>
+              <a href="" class="btn">Add to Cart</a> 
+              </div>
+            </article>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-        <p>test</p>
+      <p>test</p>
     </footer>
   </body>
 </html>

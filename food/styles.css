@@ -1,89 +1,92 @@
 body {
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    background-color: rgb(44, 41, 38);
 }
 
-ul {
-    list-style: none;
+a {
+    text-decoration: none;
 }
 
-header {
-    width: 100%;
-    background-color: black;
-    font-size: 25px;
-    align-items: center;
+#main-header {
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    align-items: center;
+    background-color: rgb(29, 26, 24);
+    padding: 0 20px;
 }
 
-#page-logo a {
-    color: orange;
-    text-decoration: none;
-    padding-left: 60px;
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(238, 164, 80);
+    text-transform: uppercase;
 }
 
-
-header ul {
-    padding-right: 60px;
+#main-header ul {
+    list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-header li {
-    margin-left: 40px;
+#main-header li {
+    margin: 0 16px;
 }
 
-header li a {
-    color: orange;
-    text-decoration: none;
+#main-header nav a {
+    color: rgb(185, 131, 31);
+    font-size: 20px;
+}
+
+#main-header nav a:hover {
+    color: rgb(228, 163, 44);
 }
 
 main h1 {
+    text-align: center;
+    color: rgb(238, 164, 80);
     font-size: 48px;
-    text-align: center;
-    color: orange;
-    margin-bottom: 80px;
 }
 
-main li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border-radius: 9px;
-    overflow: hidden;
-    width: 350px;
-    background-color: rgb(233, 233, 201);
+#latest-products {
+    width: 80%;
+    margin: 50px auto ;
 }
 
-#foods {
+#latest-products ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50%;
-    gap: 20px 70px;
-    /* align-items: center; */
-    margin: 0 auto 0 auto;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-#foods img {
-    width: 350px;
-    height: 250px;
+.food-item {
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.food-item img {
+    height: 240px;
+    width: 100%;
     object-fit: cover;
 }
 
-.item-name h2 {
-    color: rgba(6, 6, 6, 0.657);
+.food-item-content {
+    padding: 16px;
+    text-align: center;
 }
 
-.actions {
-    margin-bottom: 20px;
-}
-
-.actions a {
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    background-color: rgb(215, 152, 50);
-    border-radius: 6px;
+.btn {
+    background-color: rgb(228, 157, 44);
     color: white;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+.btn:hover {
+    background-color: rgb(221, 134, 34);
 }
